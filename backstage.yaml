@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-web
-  description: The place to be, for great artists
+  name: conectcar
+  description: The place to test ConectCar integration with backstage.io
   labels:
-    example.com/custom: custom_label_value
+    example.com/custom: conectcar
   annotations:
-    example.com/service-discovery: artistweb
-    circleci.com/project-slug: github/example-org/artist-website
+    example.com/service-discovery: conectcar
+    circleci.com/project-slug: github/example-org/conectcar-website
   tags:
     - csharp
   links:
@@ -18,5 +18,5 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations-team
+  owner: squad-whitelabel
   system: public-websites
