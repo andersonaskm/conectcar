@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: conectcar
+  description: The place to test ConectCar integration with backstage.io
+  labels:
+    example.com/custom: conectcar
+  annotations:
+    example.com/service-discovery: conectcar
+    circleci.com/project-slug: github/example-org/conectcar-website
+  tags:
+    - csharp
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: website
+  lifecycle: production
+  owner: squad-whitelabel
+  system: public-websites
