@@ -7,8 +7,12 @@ metadata:
     example.com/custom: conectcar
     resource-type: webapp
     language-framework: netcore5.1
+    appinsights-name: ConectCarApis
+    appinsights-rolename: ConectCarRoleName
   tags:
     - csharp
+    - netcore51
+    - webapp
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
