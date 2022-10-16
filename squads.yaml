@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squads
+  description: ConectCar Squads
+spec:
+  type: department
+   profile:
+    displayName: Squads
+    email: squads@conectcar.com
+  parent: conectcar-organization
+  children: [squad-whitelabel, squad-ra-rodovias, squad-ra-estacionamentos, squad-backoffice, squad-meiospagamentos, squad-varejo, squad-atendimento]
