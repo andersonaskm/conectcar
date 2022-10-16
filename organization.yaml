@@ -13,3 +13,4 @@ spec:
   profile:
     displayName: ConectCar Mobilidade
     email: conectcar@conectcar.com
+  children: []
