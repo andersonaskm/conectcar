@@ -5,7 +5,7 @@ metadata:
   description: ConectCar Squads
 spec:
   type: department
-   profile:
+  profile:
     displayName: Squads
     email: squads@conectcar.com
   parent: conectcar-organization
