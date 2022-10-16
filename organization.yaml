@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: conectcar
+  description: ConectCar Mobilidade
+  links:
+    - url: https://www.conectcar.com/
+      title: Website
+    - url: https://conectcar.visualstudio.com/Arquitetura/_wiki/wikis/Arquitetura.wiki/2/Arquitetura-Corporativa-ConectCar#
+      title: Wiki Arquitetura Corporativa
+spec:
+  type: organization
+  profile:
+    displayName: ConectCar Mobilidade
+    email: conectcar@conectcar.com
+  children: [infrastructure]
+---
