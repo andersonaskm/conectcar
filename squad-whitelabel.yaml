@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squad-whitelabel
+  description: Squad White Label
+spec:
+  type: team
+  profile:
+    displayName: Squad White Label
+    email: whitelabel@conectcar.com
+  parent: squads
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: martins.pedro
+spec:
+  profile:
+    displayName: Pedro Martins
+    email: pedro.martins@conectcar.com
+  memberOf: [squad-whitelabel]
