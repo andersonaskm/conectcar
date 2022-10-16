@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: ativacao-parceiro
+  description: Ativação na camada parceiro
+  links:
+    - url: http://example.com/domain/artists/
+      title: Ativação PF
+    - url: http://example.com/domains/artists/dashboard
+      title: Ativação PJ
+spec:
+  owner: squad-whitelabel
