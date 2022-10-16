@@ -21,4 +21,4 @@ spec:
   type: service
   lifecycle: production
   owner: squad-whitelabel
-  system: listas
+  system: whitelabel-ativacao
