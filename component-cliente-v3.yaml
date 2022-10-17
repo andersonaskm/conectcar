@@ -16,4 +16,5 @@ spec:
   type: service
   lifecycle: production
   owner: squad-varejo
+  system: apicore
   dependsOn: ['resource:cosmos-cliente', 'resource:cosmos-endereco']
