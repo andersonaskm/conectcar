@@ -9,6 +9,7 @@ metadata:
 spec:
   type: database
   owner: squad-whitelabel
+  system: whitelabel
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -21,6 +22,7 @@ metadata:
 spec:
   type: database
   owner: squad-whitelabel
+  system: whitelabel
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -33,6 +35,7 @@ metadata:
 spec:
   type: database
   owner: squad-whitelabel
+  system: whitelabel
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Resource
@@ -45,3 +48,4 @@ metadata:
 spec:
   type: database
   owner: squad-whitelabel
+  system: whitelabel
