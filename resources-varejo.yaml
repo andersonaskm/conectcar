@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: cosmos-cliente
+  description: Collection de clientes no Cosmos
+  tags:
+    - cosmos-db
+spec:
+  type: database
+  owner: squad-varejo
+  system: apicore
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: cosmos-endereco
+  description: Collection de endereços de clientes
+  tags:
+    - cosmos-db
+spec:
+  type: database
+  owner: squad-varejo
+  system: apicore
