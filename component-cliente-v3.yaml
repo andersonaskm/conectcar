@@ -12,6 +12,11 @@ metadata:
     - csharp
     - netcore32
     - webapp
+  links:
+    - url: https://qa-wa-cadastroclientebackendapiv3.azurewebsites.net/swagger/index.html
+      title: Swagger
+      icon: api
+      type: swagger
 spec:
   type: service
   lifecycle: production
