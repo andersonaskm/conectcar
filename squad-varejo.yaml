@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: squad-varejo
+  description: Squad Varejo
+spec:
+  type: team
+  profile:
+    displayName: Squad Varejo
+    email: varejo@conectcar.com
+  parent: squads
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: jailton.junior
+spec:
+  profile:
+    displayName: Jailton Junior
+    email: jailton.junior@iterative.com.br
+  memberOf: [squad-varejo]
