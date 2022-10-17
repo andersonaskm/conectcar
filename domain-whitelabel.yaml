@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: whitelabel
+  description: Oferta das funcionalidades da ConectCar como serviço aos parceiros.
+  links:
+    - url: http://example.com/domain/artists/
+      title: Regras Negócio PF
+    - url: http://example.com/domains/artists/dashboard
+      title: Regras Negócio PJ
+spec:
+  owner: squad-whitelabel
