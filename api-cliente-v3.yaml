@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: cliente-v3-api
+  description: API da Cliente V3
+  tags:
+    - webapp
+    - csharp
+    - netcore32
+spec:
+  type: openapi
+  lifecycle: production
+  owner: squad-varejo
+  definition:
+    $text: https://qa-wa-cadastroclientebackendapiv3.azurewebsites.net/swagger/v1/swagger.json
