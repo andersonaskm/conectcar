@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: whitelabel
+  description: Plataforma de oferta dos serviços ConectCar aos parceiros.
+spec:
+  owner: squad-whitelabel
+  domain: whitelabel
