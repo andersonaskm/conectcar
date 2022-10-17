@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cliente-v3
+  description: Representa as funcionalidades de gestão core de clientes.
+  labels:
+    resource-type: webapp
+    language-framework: netcore5.1
+    appinsights-name: ConectCarApis
+    appinsights-rolename: ClienteV3
+  tags:
+    - csharp
+    - netcore32
+    - webapp
+spec:
+  type: service
+  lifecycle: production
+  owner: squad-varejo
+  dependsOn: ['resource:cosmos-cliente', 'resource:cosmos-endereco']
