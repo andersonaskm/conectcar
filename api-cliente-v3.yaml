@@ -12,4 +12,4 @@ spec:
   lifecycle: production
   owner: squad-varejo
   definition:
-    $text: https://qa-wa-cadastroclientebackendapiv3.azurewebsites.net/swagger/v1/swagger.json
+    $text: https://raw.githubusercontent.com/andersonaskm/conectcar/main/api-cliente-v3-openapi.json
