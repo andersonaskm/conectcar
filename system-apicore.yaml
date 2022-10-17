@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: apicore
+  description: Conjunto de apis de funcionalidades core da ConectCar.
+spec:
+  owner: squad-varejo
+  domain: conectsys
