@@ -33,3 +33,15 @@ metadata:
 spec:
   type: database
   owner: squad-whitelabel
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: clienteparceiro
+  description: Tabela de clientes dos parceiros
+  tags:
+    - azure-sqlserver
+    - database-parceiro
+spec:
+  type: database
+  owner: squad-whitelabel
