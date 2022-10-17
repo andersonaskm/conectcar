@@ -22,3 +22,4 @@ spec:
   lifecycle: production
   owner: squad-whitelabel
   system: whitelabel-ativacao
+  dependsOn: ['resource:ativacaoparceiro', 'resource:contratoparceiro', 'resource:parceiro']
