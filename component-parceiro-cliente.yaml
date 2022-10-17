@@ -28,3 +28,4 @@ spec:
   owner: squad-whitelabel
   system: whitelabel
   dependsOn: ['resource:clienteparceiro', 'resource:parceiro']
+  consumesApis: ['component:cliente-v3']
