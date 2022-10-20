@@ -19,7 +19,7 @@ metadata:
       type: admin-dashboard
 spec:
   type: service
-  lifecycle: production
+  lifecycle: deprecated
   owner: squad-whitelabel
   system: whitelabel
   dependsOn: ['resource:ativacaoparceiro', 'resource:contratoparceiro', 'resource:parceiro']
