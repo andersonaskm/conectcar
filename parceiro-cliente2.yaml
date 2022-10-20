@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parceiro-cliente2
+  description: Representa as funcionalidades de gestão de clientes do parceiro.
+  labels:
+    resource-type: webapp
+    language-framework: netcore5.1
+    appinsights-name: ConectCarApis
+    appinsights-rolename: ParceiroClienteAPI
+  tags:
+    - csharp
+    - netcore51
+    - webapp
+  links:
+    - url: https://prd-wa-parceiroclienteapi.azurewebsites.net
+      title: API 
+      type: link-interno
+    - url: https://gateway.conectcar.com/openconnect/aquisicao/clientes
+      title: API Gateway
+      type: link-externo
+    - url: https://conectcar.visualstudio.com/Comercial/_git/Parceiro.Cliente.API
+      title: Repositório
+      type: repository
+spec:
+  type: service
+  lifecycle: production
+  owner: squad-whitelabel
+  system: whitelabel
+  dependsOn: ['resource:clienteparceiro', 'resource:parceiro']
+  consumesApis: ['component:cliente-v3']
