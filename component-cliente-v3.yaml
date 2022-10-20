@@ -19,7 +19,7 @@ metadata:
       type: swagger
 spec:
   type: service
-  lifecycle: production
+  lifecycle: deprecated
   owner: squad-varejo
   system: apicore
   dependsOn: ['resource:cosmos-cliente', 'resource:cosmos-endereco']
