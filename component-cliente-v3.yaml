@@ -17,6 +17,8 @@ metadata:
       title: Swagger
       icon: api
       type: swagger
+  annotations:
+    github.com/project-slug: andersonaskm/conectcar
 spec:
   type: service
   lifecycle: deprecated
